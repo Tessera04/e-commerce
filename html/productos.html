@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/productos.css">
+
     <title>Todos los Productos - 04</title>
 </head>
 <body>
     <section class="header">
         <div class="logo"><img src="../img/Logo.png" alt="Logo"></div>
-        <div class="buscador">
-            <input type="text" placeholder="Que estas buscando?">
+        <div class="hola">
+            <input class="buscador" type="text" placeholder="Que estas buscando?">
         </div>
-        <button class="btn" href="login.html">Login</button>
+        <button class="btn-white" href="login.html">Login</button>
     </section>
     
     <section class="sections">
+        <div class="texto">
+            <h2  style="font-size: 40px;">Todos los productos</h2>
+            <button class="btn-blue btn-send" href="">Agregar Producto</button>
+        </div>
         <div class="item-bar">
             <div class="item">
                 <img src="" alt="" class="img">
@@ -37,12 +45,19 @@
             <p>Nuestras tiendas</p>
             <p>Anuncie aqui</p>
         </div>
-        <h2>Comunicate con nosotros</h2>
-        <div class="container-login">
-            <input type="text" placeholder="Nombre">
-            <input type="text" placeholder="Escriba su mensaje">
-        </div>
-        <button class="btn">Enviar mensaje</button>
+        <form action="">
+            <h2>Comunicate con nosotros</h2>
+            <div class="container-login">
+                <input class="input-footer" type="name" placeholder="Nombre">
+                <input class="input-footer" type="text" placeholder="Escriba su mensaje">
+            </div>
+            <button class="btn-blue btn-send">Enviar mensaje</button>
+        </form>   
     </section>
+
+    <footer>
+        <p>Desarrollado por Matias Gonzalez</p>
+        <p>Tessera04</p>
+    </footer>
 </body>
 </html>

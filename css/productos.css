@@ -41,65 +41,10 @@ body{
     color: var(--boton-azul);
     border-color: var(--boton-azul);
 }
-
-/*============ Banner ==================*/
-
-.banner{
-    background-image: url(../img/banner-image.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.banner-items{
-    color: var(--blanco);
-    padding-top: 10%;
-    padding-left: 10%;
-    font-family: var(--fuente-principal);
-    padding-bottom: 1%;
-}
-
-.banner-title{
-    font-size: 52px;
-}
-
-.banner-text{
-    font-size: 22px;
-}
-
-.btn-blue{
-    width: 7%;
-    border-style: none;
-    color: var(--blanco);
-    background-color: var(--boton-azul);
-    height: 50px;
-}
-
 /*============ Main ==================*/
 
 .sections{
     font-family: var(--fuente-principal);
-}
-
-.item-bar{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.item{
-    width: calc((100% / 6)-100px);
-}
-
-.link{
-    color: var(--boton-azul);
-    font-weight: 700;
-    text-decoration: none;
-}
-
-a, a:visited, a:hover, a:active {
-    color: var(--boton-azul);
-    text-decoration: none;
-    font-weight: 700;
 }
 
 .texto{
@@ -108,6 +53,7 @@ a, a:visited, a:hover, a:active {
     align-items: center;
     margin:0 5% 0 5%;
 }
+
 /*============ Footer ==================*/
 
 .footer{
@@ -129,6 +75,14 @@ a, a:visited, a:hover, a:active {
     height: 56px;
     border-style: none;
     margin-top: 15px;
+}
+
+.btn-blue{
+    width: 7%;
+    border-style: none;
+    color: var(--blanco);
+    background-color: var(--boton-azul);
+    height: 50px;
 }
 
 .btn-send{
